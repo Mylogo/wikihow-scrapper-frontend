@@ -35,6 +35,9 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  computed: {
+    lala() { return this.$store }
   }
 }
 </script>
